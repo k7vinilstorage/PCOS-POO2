@@ -1,13 +1,44 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Model;
 
-/**
- *
- * @author joao
- */
-public class Aluno {
+public class Aluno extends Pessoa{
+    String escola;
+    String desenvolvimento;
+    int aCod;
+
+     public Aluno() {
+        escola = "";
+        desenvolvimento = "";
+        aCod = 0;
+    }
     
+    public Aluno(String escola, String desenvolvimento, int aCod) {
+        this.escola = escola;
+        this.desenvolvimento = desenvolvimento;
+        this.aCod = aCod;
+    }
+
+    public String getEscola() {
+        return escola;
+    }
+
+    public String getDesenvolvimento() {
+        return desenvolvimento;
+    }
+
+    public int getaCod() {
+        return aCod;
+    }
+
+    public void setEscola(String escola) {
+        this.escola = escola;
+    }
+
+    public void setDesenvolvimento(String desenvolvimento) {
+        this.desenvolvimento = desenvolvimento;
+    }
+
+    public void setaCod(int aCod) {
+        this.aCod = aCod;
+    }
 }

@@ -1,13 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Model;
 
-/**
- *
- * @author joao
- */
-public class Coordenador {
+public class Coordenador extends Pessoa{
     
+    int cCod;
+
+    public Coordenador() {
+        cCod = 0;
+    }
+    
+    public Coordenador(int cCod) {
+        this.cCod = cCod;
+    }
+
+    public int getcCod() {
+        return cCod;
+    }
+
+    public void setcCod(int cCod) {
+        this.cCod = cCod;
+    }
 }
