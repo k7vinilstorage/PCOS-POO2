@@ -1,2 +1,2 @@
-# PCOS-POO2
+# POCS-POO2
 Projeto para a disciplina de POO2
